@@ -66,6 +66,7 @@ align-items: center;
 }
 
 #container{
+   display: flex;
    position: relative;
    left: 170px;
    top: 20px;
@@ -117,3 +118,50 @@ h5{
     position: relative;
     bottom: -20px;
 }    
+
+#autoplay {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 20px;
+	width: 400px;
+	margin: 0 18px;
+	}
+	
+	#autoplay-icon {
+	    display: block;
+	    height: 22px;
+	    width: 60px;
+	}
+	
+	.video-suggestion {
+	    display: flex;
+	    margin: 18px;
+	    height: 98px;
+	    width: 400px;
+	}
+	
+	.suggestion-details {
+	    height: 98px;
+	    width: 200px;
+	}
+	
+	.suggestion-details > small {
+	    display: block;
+	    color: gray;
+	    font-size: 11px;
+	    position: relative;
+	    top: -8px;
+	}
+	.thumbnail {
+	    display: block;
+	    height: 94px;
+	    width: 168px;
+	    margin-right: 8px;
+	}
+	
+	#show-more {
+	    border-top: 1px solid lightgray;
+	    text-align: center;
+	
+	} 
