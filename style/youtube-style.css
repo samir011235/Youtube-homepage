@@ -1,0 +1,60 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navicon-logo {
+display: flex;
+align-items: center;
+}
+
+.logo {
+    height: 30px;
+    width: 100px;
+    margin-left: 20px;
+}
+
+
+#search-area {
+    display: flex;
+    align-items: center;
+}
+
+#search-bar {
+    display: inline-block;
+    height: 29px;
+    width: 600px;
+    border: 1px solid lightgray;
+    -webkit-appearance: none;
+}
+
+#submit {
+    height: 29px;
+    width: 50px;
+    position: relative;
+    left: -5px;
+}
+
+#upload-sign {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#upload-icon {
+    height: 40px;
+    width: 44px;
+}
+
+#sign {
+    background-color: rgb(22, 122, 198);
+    color: white;
+    font-weight: 500;
+    height: 30px;
+    width: 60px;
+    padding: 6px;
+    border: 1px solid;
+    border-radius: 3px;
+    margin-left: 30px;
+}
