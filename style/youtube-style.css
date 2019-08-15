@@ -4,9 +4,10 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    justify-content: center;
     background-color: #EEEEEE;
 }
+
+    /* Header */
 
 nav {
     display: flex;
@@ -14,9 +15,8 @@ nav {
     align-items: center;
     width: 1008px;
 	background-color: white;
-	margin-left: 120px;
 	padding: 6px;
-	margin-bottom: -6px; 
+	margin: 0 auto -6px;
 }
 
 #nav-leftpart {
@@ -75,12 +75,15 @@ align-items: center;
     margin-left: 30px;
 }
 
-#container{
+/* Main  */
+	
+#container {
    display: flex;
+   width: 1008px;
    position: relative;
-   left: 170px;
+   left: 50px;
    top: 20px;
-   margin: auto;
+   margin: 0 auto;
 }
 
 #youtube-main{
@@ -105,7 +108,7 @@ align-items: center;
     background-color: white;
 }
 
-h5{
+h5 {
     margin-top: 0;
 }
 
@@ -152,11 +155,6 @@ h5{
     background-color: white;
 }
 
-#v-actions-1 {
-
-
-}
-
 #v-actions-2 {
    position: relative;
    right: -190px;
@@ -167,7 +165,6 @@ h5{
     flex-direction: column;
     width: 560px;
     height: 180px;
-    border-color: white;
     background-color: white;
 	position: relative;
 	top: 10px;
@@ -197,6 +194,8 @@ h5{
 	background-color: white;
 	padding: 50px;
 }
+
+/* Sidebar  */
 
 aside {
     background-color: white;
@@ -250,9 +249,11 @@ aside {
     color: gray;
 }
 
+/* Footer */
+
 footer {
     width: 1008px;
-    margin-left: 120px;
+    margin: 0 auto;
     position: relative;
     top: 50px;
 }
@@ -261,7 +262,7 @@ footer {
     display: flex;
     align-items: center;
     padding: 10px;
-    margin-top: 20px 5px 5px 0;
+    margin: 20px 5px 0 0;
     background-color: white;
     border-bottom: 1px solid lightgray;
 }
@@ -276,6 +277,7 @@ footer {
 #footer-row2 {
     background-color: white;
     padding: 5px;
+    margin-right: 5px;
 }
 
 .footer-details1 {
@@ -287,6 +289,7 @@ footer {
 #footer-row3 {
     background-color: white;
     padding: 5px;
+    margin-right: 5px;
     position: relative;
     top: -10px;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-	<html lang="en">
+    <html lang="en-US">
 	<head>
 	    <meta charset="UTF-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,9 +17,9 @@
 	                <img class="logo" src="assets/youtube-logo.png" alt="youtube-logo">
 	            </div>
 	
-	            <form action="">
+	            <form>
 	                <div id="search-area">
-	                <input type="search" id="search-bar" name="" placeholder="Search">
+	                <input type="search" id="search-bar" name="youtubesearch" placeholder="Search">
 	                <button id="submit" type="submit"><i class="fa fa-search"></i></button>
 	                </div>
 	            </form>
@@ -36,25 +36,21 @@
 
 	    <main id="container">
         <section id="youtube-main">
-    	<iframe width="560" height="315" src="https://www.youtube.com/embed/bAyaXyYM3Eo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    	<iframe width="560" height="315" src="https://www.youtube.com/embed/bAyaXyYM3Eo" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         <div id="video-info">
-            <h3 id="video-title">
-    	<h2> Building On The Past </h2>
-            </h3 id="video-title">
-   		
+            <h3 id="video-title"> Building On The Past </h3>
+    	
     <div id="video-details">
     		<img id="avatar" src="assets/avatar.jpg" alt="avatar">
 
     	<div id="avatar-details">	
-    		<h5>
-    			The Youtube-Clone Project
-    		</h5>
+    		<h5> The Youtube-Clone Project </h5>
+    		
     		<div id="subscribe">	
     		<button id="sub-button"><i class="fa fa-youtube-play"></i> Subscribe</button>
-    		<span id="stats">
-    			799
-    		</span>
+    		<span id="stats"> 799 </span>
+    		
     		</div>
        	</div>
        	<p id="views">60,430 views</p>
@@ -89,10 +85,10 @@
 </section>
 	
 <aside>
-    <section id="autoplay">
+    <div id="autoplay">
         <p>Up Next</p>
         <img id="autoplay-icon" src="assets/autoplay.png" alt="autoplay-image">
-    </section>
+    </div>
 
     <section class="video-suggestion">
         <img class="thumbnail" src="assets/1.png" alt="video-1">
@@ -274,9 +270,9 @@
             </div>
      </section>
 
-    <section id="show-more">
+    <div id="show-more">
         <small>SHOW MORE</small>
-    </section>
+    </div>
 
 
 </aside>
