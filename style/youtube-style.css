@@ -119,6 +119,21 @@ h5{
     bottom: -20px;
 }    
 
+#video-actions {
+    display: flex;
+    color: gray;
+}
+
+#v-actions-1 {
+
+
+}
+
+#v-actions-2 {
+   position: relative;
+   right: -190px;
+}
+
 #autoplay {
 	display: flex;
 	justify-content: space-between;
