@@ -1,18 +1,23 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    justify-content: center;
 }
-
 
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 1180px;
 }
 
 #navicon-logo {
 display: flex;
 align-items: center;
+}
+
+#youtube-main{
+    margin-left: -50px;
 }
 
 .logo {
@@ -134,6 +139,28 @@ h5{
    right: -190px;
 }
 
+#video-description{
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    height: 315px;
+    border-color: white;
+}
+
+#video-description > p {
+    font-size: small;
+    color: rgb(80,80,80);
+    margin-top: 3px;
+    background-color: white;
+}
+
+#loading-icon {
+    color: gray;
+    margin-top: 50px;
+    border-width: 2px;
+    margin-left: 230px;
+}
+
 #autoplay {
 	display: flex;
 	justify-content: space-between;
@@ -141,42 +168,47 @@ h5{
 	height: 20px;
 	width: 400px;
 	margin: 0 18px;
-	}
+}
 	
-	#autoplay-icon {
-	    display: block;
-	    height: 22px;
-	    width: 60px;
-	}
+#autoplay-icon {
+    display: block;
+    height: 22px;
+    width: 60px;
+}
 	
-	.video-suggestion {
-	    display: flex;
-	    margin: 18px;
-	    height: 98px;
-	    width: 400px;
-	}
+.video-suggestion {
+    display: flex;
+    margin: 18px;
+    height: 98px;
+    width: 400px;
+}
 	
-	.suggestion-details {
-	    height: 98px;
-	    width: 200px;
-	}
+.suggestion-details {
+    height: 98px;
+    width: 200px;
+}
 	
-	.suggestion-details > small {
-	    display: block;
-	    color: gray;
-	    font-size: 11px;
-	    position: relative;
-	    top: -8px;
-	}
-	.thumbnail {
-	    display: block;
-	    height: 94px;
-	    width: 168px;
-	    margin-right: 8px;
-	}
+.suggestion-details > small {
+    display: block;
+    color: gray;
+    font-size: 11px;
+    position: relative;
+    top: -8px;
+}
+.thumbnail {
+    display: block;
+    height: 94px;
+    width: 168px;
+    margin-right: 8px;
+}
 	
-	#show-more {
-	    border-top: 1px solid lightgray;
-	    text-align: center;
-	
-	} 
+#show-more {
+    border-top: 1px solid lightgray;
+    text-align: center;
+    color: gray;
+}
+#show-more1{
+    border-top: 1px solid lightgray;
+    text-align: center;
+    color: gray; 
+}
