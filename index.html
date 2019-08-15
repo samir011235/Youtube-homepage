@@ -12,8 +12,8 @@
 	<body>
 	    <header>
 	        <nav>
-	            <div id="navicon-logo">
-	                <i class="fa fa-navicon"></i>
+	            <div id="nav-leftpart">
+	                <i class="fa fa-navicon"  style="color: lightgray ; margin-left:6px"></i>
 	                <img class="logo" src="assets/youtube-logo.png" alt="youtube-logo">
 	            </div>
 	
@@ -24,8 +24,10 @@
 	                </div>
 	            </form>
 	
-	            <div id="upload-sign">
-	            <img id="upload-icon" src="assets/upload.png" alt="upload-icon">
+	            <div id="nav-rightpart">
+                    <img class="right-icons" id="upload-icon" src="assets/upload.png" alt="upload-icon">
+                    <img class="right-icons" src="assets/create-video.png" alt="create-video-icons">
+                    <img class="right-icons" src="assets/youtube-apps.png" alt="youtube-apps-icons">
 	            <button id="sign">Sign in</button>
 	            </div>
 	
@@ -36,10 +38,11 @@
         <section id="youtube-main">
     	<iframe width="560" height="315" src="https://www.youtube.com/embed/bAyaXyYM3Eo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
-    	<h2>
-    		Building On The Past
-   		</h2>
+        <div id="video-info">
+            <h3 id="video-title">
+    	<h2> Building On The Past </h2>
+            </h3 id="video-title">
+   		
     <div id="video-details">
     		<img id="avatar" src="assets/avatar.jpg" alt="avatar">
 
@@ -55,6 +58,7 @@
     		</div>
        	</div>
        	<p id="views">60,430 views</p>
+    </div>
     </div>
     <div id="video-actions">
     	<div id="v-actions-1">
@@ -76,12 +80,11 @@
     <div id="video-description">
     	<small>Published on Feb 27, 2014</small>
     	<p>How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails. You can find more information about that project at http://theodinproject.com.</p>
-    	<div id="show-more1">
-            <small>SHOW MORE</small>
-    	</div>
+    	<small id="showmore-description">SHOW MORE</small>
+	    </div>
     <div id="loading-icon">
-    	<i class="fa fa-spinner fa-spin" style="font-size:18px; color: lightgray;"></i>
-    	<span>Loading</span>
+        <i class="fa fa-spinner fa-spin" style="font-size:18px; color: lightgray;"></i>
+        <small>Loading</small>
     </div>
 </section>
 	
