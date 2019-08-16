@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+    <html lang="en-US">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	    <title>Youtube Page</title>
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	    <link rel="stylesheet" href="style/youtube-style.css">
+	    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+	</head>
+	<body>
+	    <header>
+	        <nav>
+	            <div id="nav-leftpart">
+	                <i class="fa fa-navicon"  style="color: lightgray ; margin-left:6px"></i>
+	                <img class="logo" src="assets/youtube-logo.png" alt="youtube-logo">
+	            </div>
+	
+	            <form>
+	                <div id="search-area">
+	                <input type="search" id="search-bar" name="youtubesearch" placeholder="Search">
+	                <button id="submit" type="submit"><i class="fa fa-search"></i></button>
+	                </div>
+	            </form>
+	
+	            <div id="nav-rightpart">
+                    <img class="right-icons" id="upload-icon" src="assets/upload.png" alt="upload-icon">
+                    <img class="right-icons" src="assets/create-video.png" alt="create-video-icons">
+                    <img class="right-icons" src="assets/youtube-apps.png" alt="youtube-apps-icons">
+	            <button id="sign">Sign in</button>
+	            </div>
+	
+	        </nav>
+	    </header>
+
+	    <main id="container">
+        <section id="youtube-main">
+    	<iframe width="560" height="315" src="https://www.youtube.com/embed/bAyaXyYM3Eo" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <div id="video-info">
+            <h3 id="video-title"> Building On The Past </h3>
+    	
+    <div id="video-details">
+    		<img id="avatar" src="assets/avatar.jpg" alt="avatar">
+
+    	<div id="avatar-details">	
+    		<h5> The Youtube-Clone Project </h5>
+    		
+    		<div id="subscribe">	
+    		<button id="sub-button"><i class="fa fa-youtube-play"></i> Subscribe</button>
+    		<span id="stats"> 799 </span>
+    		
+    		</div>
+       	</div>
+       	<p id="views">60,430 views</p>
+    </div>
+    </div>
+    <div id="video-actions">
+    	<div id="v-actions-1">
+	    	<i class="fa fa-plus" style="font-size:15px ; margin:10px"></i>
+	    	<span>Add to</span>
+	    	<i class="fa fa-share" style="font-size:15px ; margin:10px"></i>
+	    	<span>Share</span>
+	    	<i class="fa fa-ellipsis-h" style="font-size:15px ; margin:10px"></i>
+	    	<span>More</span>
+    	</div>
+
+    	<div id="v-actions-2">
+	    	<i class="fa fa-thumbs-o-up" style="font-size:15px ; margin:10px"></i>
+	    	<span>590</span>
+	    	<i class="fa fa-thumbs-o-down" style="font-size:15px ; margin:10px"></i>
+	    	<span>40</span>
+    	</div>
+    </div>
+    <div id="video-description">
+    	<small>Published on Feb 27, 2014</small>
+    	<p>How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails. You can find more information about that project at http://theodinproject.com.</p>
+    	<small id="showmore-description">SHOW MORE</small>
+	    </div>
+    <div id="loading-icon">
+        <i class="fa fa-spinner fa-spin" style="font-size:18px; color: lightgray;"></i>
+        <small>Loading</small>
+    </div>
+</section>
+	
+<aside>
+    <div id="autoplay">
+        <p>Up Next</p>
+        <img id="autoplay-icon" src="assets/autoplay.png" alt="autoplay-image">
+    </div>
+
+    <section class="video-suggestion">
+        <img class="thumbnail" src="assets/1.png" alt="video-1">
+        <div class="suggestion-details">
+            <h5>Contributing to Open Source Part II: The Real Way</h5>
+            <small>The Odin Project</small>
+            <small>29,985 views</small>
+        </div>
+    </section>
+
+    <section class="video-suggestion">
+            <img class="thumbnail" src="assets/2.png" alt="video-2">
+            <div class="suggestion-details">
+                <h5>'How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' by Sean Lee</h5>
+                <small>Timtiana</small>
+                <small>981,543 views</small>
+            </div>
+    </section>
+
+    <section class="video-suggestion">
+            <img class="thumbnail" src="assets/3.png" alt="video-3">
+            <div class="suggestion-details">
+                <h5>Programming in Visual Basic .Net How to Connect Access Database to VB.Net</h5>
+                <small>iBasskung  </small>
+                <small>16,130,993 views </small>
+            </div>
+    </section>
+
+    <section class="video-suggestion">
+            <img class="thumbnail" src="assets/4.png" alt="video-4">
+            <div class="suggestion-details">
+                <h5>REST API concepts and examples</h5>
+                <small>TWebConcepts </small>
+                <small>3,580,484 views</small>
+            </div>
+    </section>
+
+    <section class="video-suggestion">
+            <img class="thumbnail" src="assets/5.png" alt="video-5">
+            <div class="suggestion-details">
+                <h5>GitHub - Why Microsoft Paid $7.5B for the Future of Software!</h5>
+                <small>Valuetainment</small>
+                <small>444,634 views</small>
+            </div>
+    </section>
+
+    <section class="video-suggestion">
+            <img class="thumbnail" src="assets/6.png" alt="video-6">
+            <div class="suggestion-details">
+                <h5>How to create a 3D Terrain with Google Maps and height maps in Photoshop</h5>
+                <small>Orange Box Ceo </small>
+                <small>6,269,391 views </small>
+            </div>
+    </section>
+
+    <section class="video-suggestion">
+            <img class="thumbnail" src="assets/7.png" alt="video-7">
+            <div class="suggestion-details">
+                <h5>Convolutional Neural Networks (CNNs) explained</h5>
+                <small>Tdeeplizard</small>
+                <small>2239,752 views</small>
+            </div>
+    </section>
+
+    <section class="video-suggestion">
+            <img class="thumbnail" src="assets/8.png" alt="video-8">
+            <div class="suggestion-details">
+                <h5>Top 10 Linux Job Interview Questions</h5>
+                <small>tutoriaLinux </small>
+                <small>1,236,003 views </small>
+            </div>
+    </section>
+
+    <section class="video-suggestion">
+            <img class="thumbnail" src="assets/9.png" alt="video-9">
+            <div class="suggestion-details">
+                <h5>Running an SQL Injection Attack - Computerphile</h5>
+                <small>Computerphile </small>
+                <small>2,217,477 views</small>
+            </div>
+    </section>
+
+    <section class="video-suggestion">
+            <img class="thumbnail" src="assets/10.png" alt="video-10">
+            <div class="suggestion-details">
+                <h5>How to prepare for product based companies??</h5>
+                <small>Gate Lectures by Ravindrababu Ravula</small>
+                <small>291,215 views </small>
+            </div>
+    </section>
+
+    <section class="video-suggestion">
+            <img class="thumbnail" src="assets/11.png" alt="video-11">
+            <div class="suggestion-details">
+                <h5>Visual Basic .Net : Search in Access Database - DataGridView BindingSource</h5>
+                <small>TiBasskung</small>
+                <small>6,047,577 views </small>
+            </div>
+    </section>
+
+    <section class="video-suggestion">
+            <img class="thumbnail" src="assets/12.png" alt="video-12">
+            <div class="suggestion-details">
+                <h5>How To Convert pdf to word without software</h5>
+                <small>karim hamdadi</small>
+                <small>12,275,519 views</small>
+            </div>
+    </section>
+
+    <section class="video-suggestion">
+            <img class="thumbnail" src="assets/13.png" alt="video-13">
+            <div class="suggestion-details">
+                <h5>What Python Projects Should I Build to Get a Job?</h5>
+                <small>Real Python</small>
+                <small>169,155 views </small>
+            </div>
+    </section>
+
+    <section class="video-suggestion">
+            <img class="thumbnail" src="assets/14.png" alt="video-14">
+            <div class="suggestion-details">
+                <h5>How To NOT Look Like A Tourist | What To Wear In Europe</h5>
+                <small>Audrey Coyne </small>
+                <small>3,432,133 views </small>
+            </div>
+     </section>
+
+     <section class="video-suggestion">
+            <img class="thumbnail" src="assets/15.png" alt="video-15">
+            <div class="suggestion-details">
+                <h5>Your First GitHub Pull Request (in 10 Mins)</h5>
+                <small>Jackson Bates</small>
+                <small>31,930 views</small>
+            </div>
+    </section>
+
+    <section class="video-suggestion">
+            <img class="thumbnail" src="assets/16.png" alt="video-16">
+            <div class="suggestion-details">
+                <h5>Top signs of an inexperienced programmer</h5>
+                <small>TechLead</small>
+                <small>928,523 views</small>
+            </div>
+    </section>
+
+    <section class="video-suggestion">
+            <img class="thumbnail" src="assets/17.png" alt="video-17">
+            <div class="suggestion-details">
+                <h5>Why I left my job at Google (as a software engineer)</h5>
+                <small>TechLead</small>
+                <small>1,684,582 views</small>
+            </div>
+    </section>
+
+    <section class="video-suggestion">
+            <img class="thumbnail" src="assets/18.png" alt="video-18">
+            <div class="suggestion-details">
+                <h5>Max Stoiber - I want you to contribute to open source </h5>
+                <small>ReactRally</small>
+                <small>3,134 views</small>
+            </div>
+    </section>
+
+    <section class="video-suggestion">
+            <img class="thumbnail" src="assets/19.png" alt="video-19">
+            <div class="suggestion-details">
+                <h5>How to Learn Anything... Fast - Josh Kaufman</h5>
+                <small>The RSA</small>
+                <small>3,157,647 views</small>
+            </div>
+     </section>
+
+     <section class="video-suggestion">
+            <img class="thumbnail" src="assets/20.png" alt="video-20">
+            <div class="suggestion-details">
+                <h5>Git & GitHub: Pull requests </h5>
+                <small>Codecourse</small>
+                <small>78,624 views </small>
+            </div>
+     </section>
+
+    <div id="show-more">
+        <small>SHOW MORE</small>
+    </div>
+
+
+</aside>
+
+    </main>
+
+    <footer>
+	        <div id="footer-row1">
+	            <img class="logo" src="assets/youtube-logo.png" alt="">
+	            <button class="footer-button"> <i class="fa fa-user"></i> Language: <strong>English</strong> <i class="fa fa-caret-down"></i></button>
+	            <button class="footer-button">Location: <strong>Netherlands</strong> <i class="fa fa-caret-down"></i></button>
+	            <button class="footer-button"> Restricted Mode: <strong>Off</strong> <i class="fa fa-caret-down"></i></button>
+	            <button class="footer-button"> <i class="fa fa-hourglass-3"></i> <strong> History </strong></button>
+	            <button class="footer-button"><strong>Help</strong></button>
+	        </div>
+	        <div id="footer-row2">
+	           <small class="footer-details1">About</small>  
+	           <small class="footer-details1" >Press</small>  
+	           <small class="footer-details1">Copyright</small>   
+	           <small class="footer-details1">Creators</small> 
+	           <small class="footer-details1">Advertise</small>  
+	           <small class="footer-details1">Developers</small>
+	        </div>
+	        <div id="footer-row3">
+	           <small class="footer-details2">Terms</small>  
+	           <small class="footer-details2">Privacy</small>   
+	           <small class="footer-details2">Policy & Safety</small>   
+	           <small class="footer-details2">Test new features </small>
+	        </div>
+	    </footer>
+	
+	</body>
+	</html> 
